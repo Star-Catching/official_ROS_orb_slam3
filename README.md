@@ -7,13 +7,13 @@
   <!-- 创建工作空间 -->
   mkdir name_ws
   mkdir src && cd src
-  gcl https://github.com/Star-Catching/official_ros_orb_slam3.git
+  gcl https://github.com/Star-Catching/official_ros_orb_slam3.git orb_slam3
   cd ../..
   catkin_make
   <!-- 运行脚本解压字典压缩包  -->
   ./build_thrid_party.sh
   <!-- 运行实例 -->
-  rosrun official_ros_orb_slam3 ros_mono src/orb_slam3/Vocabulary/ORBvoc.txt src/orb_slam3/Examples/Monocular/TUM1.yaml
+  rosrun orb_slam3 ros_mono src/official_ros_orb_slam3/Vocabulary/ORBvoc.txt src/official_ros_orb_slam3/Examples/Monocular/TUM1.yaml
 
 ```
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
