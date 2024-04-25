@@ -31,7 +31,7 @@
 
 #include<opencv2/core/core.hpp>
 
-#include"/home/wxz/SLAM_code/ROS_ORB-SLAM_ws/src/orb_slam3/include/System.h"
+#include"System.h"
 #include"../include/ImuTypes.h"
 
 using namespace std;

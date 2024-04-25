@@ -26,7 +26,7 @@
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 #include <Eigen/Dense>
-#include </home/wxz/SLAM_code/ROS_ORB-SLAM_ws/src/orb_slam3/Thirdparty/Sophus/sophus/se3.hpp>
+#include </home/wxz/SLAM_code/offical-ROS_ORB-SLAM3_ws/src/orb_slam3/Thirdparty/Sophus/sophus/se3.hpp>
 #include <mutex>
 
 #include "SerializationUtils.h"

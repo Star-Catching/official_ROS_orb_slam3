@@ -24,10 +24,10 @@
 
 #include<ros/ros.h>
 #include <cv_bridge/cv_bridge.h>
-
+#include"System.h"
 #include<opencv2/core/core.hpp>
 
-#include"/home/wxz/SLAM_code/ROS_ORB-SLAM_ws/src/orb_slam3/include/System.h"
+
 
 using namespace std;
 
